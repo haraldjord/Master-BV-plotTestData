@@ -2,8 +2,7 @@ clear all;
 close all;
 %% 
 fileNr = '74.txt';
-path = 'C:\Users\haral\Documents\specialisation-project\BuoyancyTerminalApp\InstalledApplication\BuoyancyApp\MissionLog\';
-%path = 'C:\Users\haral\Documents\skole\kyb_3_semester\prosjektoppgave\drive-download-20210218T105531Z-001\BuoyancyTerminalApp\InstalledApplication\BuoyancyApp\MissionLog';
+path = 'missionLog\'; % Path to mission log 
 fileID = fopen((append(path, fileNr)));
 %fileID = fopen('C:\Users\haral\Documents\specialisation-project\BuoyancyTerminalApp\InstalledApplication\BuoyancyApp\MissionLog\'+ fileNr' + '.txt');
 %fileID = fopen(C:\Users\haral\Documents\skole\kyb_3_semester\prosjektoppgave\drive-download-20210218T105531Z-001\BuoyancyTerminalApp\InstalledApplication\BuoyancyApp\MissionLog\105.txt); % from Desember
